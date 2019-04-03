@@ -1,0 +1,45 @@
+.container
+{
+    margin:30px auto;
+    font-size: 20px;
+}
+.tasks-container
+{
+    padding:20px 15px;
+    
+}
+
+.float-right
+{
+    display: inline-block;
+    float: right;
+}
+
+
+.btn
+{
+    margin-right: 10px;
+}
+.nav-tabs>li
+{
+    width: 50%;
+    text-align: center;
+}
+.nav-tabs>li>a,
+ .nav-tabs>li>a:hover,
+ .nav-tabs>li>a:focus
+{
+    background-color:#4CAF50;
+    color:#fff;
+ 
+    
+}
+.nav-tabs>li.active>a,
+ .nav-tabs>li.active>a:focus, 
+ .nav-tabs>li.active>a:hover
+{
+    color: #fff;
+    background-color:#c2185b
+}
+
+

@@ -1,0 +1,16 @@
+
+<div class="tasks-container">
+    <ul class="list-group">
+        <a style="cursor:pointer " class="list-group-item" *ngFor="let task of finsishedTasks ;let i = index"  >
+          {{task}}
+          <div class="float-right">
+           
+            <button class="btn btn-danger" (click)="removetask(i)"><i class="fa fa-trash-o"></i></button> 
+          </div>
+         
+        </a>
+           
+      </ul> 
+
+</div>
+
